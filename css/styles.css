@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Màu nền pastel */
+}
+
+header {
+    background-color: #ffe6e6; /* Màu pastel */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    width: 100px; /* Kích thước logo */
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Tạo 2 cột có chiều rộng tối thiểu 300px và tối đa có thể mở rộng */
+    gap: 20px; /* Khoảng cách giữa các công chúa */
+    justify-content: center; /* Canh giữa các công chúa */
+}
+.princess {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	  margin-bottom: 20px;
+}
+
+.princess h2 {
+    font-size: 28px;
+    margin-top: 0;
+    color: black; /* Medium Slate Blue */
+}
+
+.rating {
+    margin-bottom: 15px;
+}
+
+.review {
+    width: 100%;
+    resize: vertical;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #7b68ee; /* Medium Slate Blue */
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-top: 20px;
+	margin: 20px auto 0; 
+}
+
+button:hover {
+    background-color: #483d8b; /* Dark Slate Blue */
+}
+
+
+
+
+
+.princess img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
